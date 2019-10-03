@@ -3,7 +3,7 @@
 // @namespace     http://userstyles.org
 // @description	  My custom CSS for Google Play Music
 // @author        me
-// @homepage      https://gist.githubusercontent.com/fanuch/ea6438299974c27d31a23dcde42bfecb/raw/56a5e6351e82b3159ad311ea72966d6fed3d2cdb/google-play-music-dark.js
+// @homepage      https://raw.githubusercontent.com/fanuch/my_tampermonkey_gists/master/Custom%20-%20Google%20Music
 // @include       https://play.google.com/music/listen*
 // @run-at        document-start
 // @version       0.20190801053953
