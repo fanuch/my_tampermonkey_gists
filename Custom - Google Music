@@ -1,0 +1,34 @@
+// ==UserScript==
+// @name          Custom - Google Music
+// @namespace     http://userstyles.org
+// @description	  My custom CSS for Google Play Music
+// @author        me
+// @homepage      https://gist.githubusercontent.com/fanuch/ea6438299974c27d31a23dcde42bfecb/raw/56a5e6351e82b3159ad311ea72966d6fed3d2cdb/google-play-music-dark.js
+// @include       https://play.google.com/music/listen*
+// @run-at        document-start
+// @version       0.20190801053953
+// ==/UserScript==
+(function() {var css = [
+    "#player {",
+	"	background: none !important;",
+	"}"
+].join("\n");
+if (typeof GM_addStyle != "undefined") {
+	GM_addStyle(css);
+} else if (typeof PRO_addStyle != "undefined") {
+	PRO_addStyle(css);
+} else if (typeof addStyle != "undefined") {
+	addStyle(css);
+} else {
+	var node = document.createElement("style");
+	node.type = "text/css";
+	node.appendChild(document.createTextNode(css));
+	var heads = document.getElementsByTagName("head");
+	if (heads.length > 0) {
+		heads[0].appendChild(node);
+	} else {
+		// no head yet, stick it whereever
+		document.documentElement.appendChild(node);
+	}
+}
+})();
