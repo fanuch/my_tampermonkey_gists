@@ -2,7 +2,7 @@
 // @name          Custom - Google Music
 // @namespace     http://userstyles.org
 // @description	  My custom CSS for Google Play Music
-// @author        me
+// @author        me2
 // @homepage      https://raw.githubusercontent.com/fanuch/my_tampermonkey_gists/master/Custom%20-%20Google%20Music
 // @include       https://play.google.com/music/listen*
 // @run-at        document-start
