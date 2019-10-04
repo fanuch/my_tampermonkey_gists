@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Blur All the Things
-// @namespace    http://tampermonkey.net/
+// @downloadURL  https://raw.githubusercontent.com/fanuch/my_tampermonkey_gists/master/Custom%20-%20Blur
 // @version      0.1
 // @description  This will blur all input fields
-// @author       You
+// @author       fanuch
 // @match        https://put_a_site_here.tld/*
 // @grant        none
 // @require http://code.jquery.com/jquery-1.12.4.min.js
