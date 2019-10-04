@@ -1,0 +1,20 @@
+// ==UserScript==
+// @name         Blur All the Things
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  This will blur all input fields
+// @author       You
+// @match        https://put_a_site_here.tld/*
+// @grant        none
+// @require http://code.jquery.com/jquery-1.12.4.min.js
+// ==/UserScript==
+
+// replace the URL on line 7 to whatever site you want to change or; 
+// Use this match sparingly, as it will inject JQuery, and blur to every single web page!
+// // @match        *://*/*
+
+(function() {
+    'use strict';
+    $("input").css( "filter", "blur(2px)" );
+    // Your code here...
+})();
